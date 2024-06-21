@@ -25,4 +25,9 @@ Go to huggingface setting and find Access Tokens, then click "New token" to crea
 
 ### Adjust the parameters of the code
 
-Now go to input your parameters in code
+Now go to input your parameters in code.
+Type these parameters. For PDF or model you can use "EX" as suggested
+
+![](https://github.com/sefgsefg/RAG_kubeflow/blob/main/Code_para.png)
+
+And there is a parameter call `load_in_8bit` in line 74, if your platform doesn't use GPU, just comment it.
