@@ -4,6 +4,12 @@ This is a Kubeflow pipeline component that retrieves answers from a provided doc
 
 ## Prework
 
+### Installation
+
+```
+!pip install kfp
+```
+
 ### Pinecone 
 
 In this example, we use pinecone to create a vector database. Create an account and create an index, enter the index name, dimensions, enter 384 and then create the index
