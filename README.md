@@ -3,7 +3,6 @@
 This is a Kubeflow pipeline component that retrieves answers from a provided document using a Retrieval-Augmented Generation (RAG) approach. The component utilizes various libraries such as `langchain`, `pinecone`, and `transformers` to process a PDF document, create embeddings, and generate answers based on the retrieved content.
 
 ## Prework
----
 
 ### Pinecone 
 
@@ -14,6 +13,7 @@ In this example, we use pinecone to create a vector database. Create an account 
 Then create an API key(token)
 
 ![](https://github.com/sefgsefg/RAG_kubeflow/blob/main/Pinecone_create_APIkey.png)
+---
 
 ### Huggingface
 
@@ -21,6 +21,7 @@ If the model you use have to sigh the agreement(like meta LLAMA models), you wil
 Go to huggingface setting and find Access Tokens, then click "New token" to create a key for `READ`
 
 ![](https://github.com/sefgsefg/RAG_kubeflow/blob/main/huggingface_token.png)
+---
 
 ### Adjust the parameters of the code
 
