@@ -30,4 +30,4 @@ Type these parameters. For PDF or model you can use "EX" as suggested
 
 ![](https://github.com/sefgsefg/RAG_kubeflow/blob/main/Code_para.png)
 
-And there is a parameter call `load_in_8bit` in line 74, if your platform doesn't use GPU, just comment it.
+And there is a parameter call `load_in_8bit` in function `AutoModelForCausalLM.from_pretrained`, if your platform doesn't use GPU, just comment it.
