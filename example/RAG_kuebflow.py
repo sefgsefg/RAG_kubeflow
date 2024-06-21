@@ -71,7 +71,7 @@ def RAG(questions:str):
                         device_map='auto',
                         torch_dtype=torch.float16,
                         use_auth_token=True,
-                        
+                        load_in_8bit=True # If you don't use GPU, comment this parameter
                          )
     model = pipeline("text-generation",
                 model=model,
