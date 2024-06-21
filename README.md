@@ -37,3 +37,7 @@ Type these parameters. For PDF or model you can use "EX" as suggested
 ![](https://github.com/sefgsefg/RAG_kubeflow/blob/main/Code_para.png)
 
 And there is a parameter call `load_in_8bit` in function `AutoModelForCausalLM.from_pretrained`, if your platform doesn't use GPU, just comment it.
+
+Reference
+---
+https://github.com/MuhammadMoinFaisal/LargeLanguageModelsProjects/tree/main/Chat_with_Multiple_PDF_llama2_Pinecone
